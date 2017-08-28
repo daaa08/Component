@@ -1,6 +1,5 @@
 # Component
 ###### Service
-- 서비스 실행
 ```java
 public static void startMyService(Context context){
         context.startService(new Intent(MyService.class.getName()));
