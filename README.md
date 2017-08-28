@@ -31,7 +31,7 @@ AlarmManager am = (AlarmManager) view.getContext().getSystemService(ALARM_SERVIC
 ```
 
 ###### Transparent activity 
-- <res> 안에 아래 <style> 추가
+- res안에 아래 <style> 추가
 ```xml
 <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="android:windowBackground">@android:color/transparent</item>
